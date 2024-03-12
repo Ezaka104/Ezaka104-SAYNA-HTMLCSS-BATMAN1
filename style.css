@@ -1,0 +1,11 @@
+#entête1{
+    padding: 40px;
+    position: relative;
+    left: 5cm;
+}
+.entête2{
+   position: fixed;
+   top: 40px;
+   right: 5cm;
+   color: white;
+}

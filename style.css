@@ -8,4 +8,9 @@
    top: 40px;
    right: 5cm;
    color: white;
+   
+}
+.section1{
+    display: flex;
+    justify-content: center;
 }

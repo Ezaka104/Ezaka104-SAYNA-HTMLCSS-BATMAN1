@@ -1,3 +1,9 @@
+body {
+    color: white;
+    
+}
+
+
 #entête1{
     padding: 40px;
     position: relative;
@@ -7,16 +13,48 @@
    position: fixed;
    top: 40px;
    right: 5cm;
+   font-size: 40px;
+   text-decoration: none;
    color: white;
-   
 }
-.section1{
-    display: flex;
-    justify-content: center;
+.entête2 a{
+    text-decoration: none;
+    color: white;
+}
+.paragraphe{
+    text-align: center;
+    margin-top: 100px;
+    font-size: large;
 }
 h2{
     text-align: center;
 }
-.paraphe{
+.deuxliens{
     text-align: center;
+    
 }
+.deuxliens {
+    text-align: center; /* Centrer horizontalement les éléments à l'intérieur de .deuxliens */
+}
+
+.bouton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:silver;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-right: 40px; /* Ajoute un espace entre les boutons */
+    margin-top: 40px;
+}
+
+.bouton:hover {
+    background-color:silver;
+    border-color: white;
+}
+.section1{
+    background-image: url(Assets/Illustrations/Bathome1.png);
+
+}   

@@ -1,5 +1,6 @@
 body {
     color: white;
+    background-color: black;
     
 }
 
@@ -58,3 +59,117 @@ h2{
     background-image: url(Assets/Illustrations/Bathome1.png);
 
 }   
+.contenaire{
+    display: flex;
+    height: 750px;
+}
+.column1{
+    flex-basis: 90%;
+    padding: 0%;
+    text-align: left;
+}
+.column2{
+    flex-basis: 1%;
+    padding: 0%;
+    margin-top: 200px; 
+    text-align: center;
+}
+.section2{
+    background-color: black;
+}
+.fleche1{
+    text-align: center;
+}
+.Batman{
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0 100px;
+}
+.p1{
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0 100px;
+}
+.contenaire1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.columnI,
+.columnII,
+.columnIII {
+    flex: 1; /* Les colonnes occupent un espace égal */
+    text-align: center; /* Alignement du contenu au centre si nécessaire */
+}
+.NEMESIS{
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0 100px;
+}
+.NEMESIS img{
+    width: 100px; 
+    height: auto;
+}
+.p2{
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0 100px;
+}
+.contenaire2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.columnA,
+.columnB,
+.columnC{
+    flex: 1; /* Les colonnes occupent un espace égal */
+    text-align: center;
+}
+.tokana{
+    text-align: right;
+    margin-top: 0px;
+}
+.allié{
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0 100px;
+    text-transform: uppercase;
+}
+.texte2{
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0 100px;
+}
+.contenaire3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.column11,
+.column12,
+.column13{
+    flex: 1; /* Les colonnes occupent un espace égal */
+    text-align: center; /* Alignement du contenu au centre si nécessaire */
+}
+.Justice{
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0 100px;
+    text-transform: uppercase;
+}
+.pj{
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0 100px;
+    text-transform: none;
+}
+.multimedia{
+    background-color: black;
+}
+.titreM{
+    text-transform: uppercase;
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0 100px;
+}
